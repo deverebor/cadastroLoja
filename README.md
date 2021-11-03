@@ -1,18 +1,30 @@
-## Getting Started
+<h1 align="center">👥 Sistema: Cadastro de Usuários</h1>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<p align="center">
+  <img src="https://i.pinimg.com/originals/7b/76/ee/7b76eeb8b79c33d12fe80aa4d80ef9a8.gif">
+</p>
 
-## Folder Structure
+> Projeto requisitado pelo professor [_Edson Mota_](https://www.linkedin.com/in/edsonmottac/).
 
-The workspace contains two folders by default, where:
+Totalmente feito em Java utilizando pacotes da própria linguagem.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📢 Sobre o Projeto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O projeto tem como objetivo facilitar o cadastro de um usuário na aplicação que ele possuí.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🎯 Dependências para rodar a aplicação
 
-## Dependency Management
+- `Java 11.0 +`
+- `Compilador Java.`
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 📚 Oque aprendi nesse projeto ?
+
+- Utilização de overcharge nos metodos `@Override`.
+- Refatoração de classes.
+- Utilizar herança de classes.
+
+---
+
+<p align="center">
+Desenvolvido com 💘 por Lucas Souza.
+</p>
