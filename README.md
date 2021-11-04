@@ -10,7 +10,9 @@ Totalmente feito em Java utilizando pacotes da própria linguagem.
 
 ## 📢 Sobre o Projeto
 
-O projeto tem como objetivo facilitar o cadastro de um usuário na aplicação que ele possuí.
+O projeto tem como objetivo facilitar o cadastro de um usuário na aplicação. Onde é possível cadastrar um usuário, prestador de serviço e funcionário.
+
+A classe **Pessoa** é responsável por armazenar os dados de todos os usuários e prover toda lógica de Criar, Ler, Alterar e Remover.
 
 ## 🎯 Dependências para rodar a aplicação
 
