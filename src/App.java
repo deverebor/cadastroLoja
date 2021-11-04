@@ -53,7 +53,7 @@ public class App {
         prest.changePerson("Zurema Santos", prest2);
         prest.showPersonList();
 
-        // Cadastro do funcionário.
+        // Cadastro do usuário.
         user.setName("Astrogildo Silva");
         user.setPhone("71 9 8888-7777");
         user.setEmail("the_real_astro@email.com");
