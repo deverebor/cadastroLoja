@@ -23,7 +23,7 @@ public class App {
         func.showPessoaContent();
         func2.showPessoaContent();
 
-        // // Manipulação das pessoas no sistema.
+        // Manipulação das pessoas no sistema.
         func.addNewPerson(func);
         func.addNewPerson(func2);
         func.removePerson("Astrogildo Silva");
@@ -54,16 +54,16 @@ public class App {
         prest.showPersonList();
 
         // Cadastro do usuário.
-        user.setName("Astrogildo Silva");
+        user.setName("Shiryu de Dragão");
         user.setPhone("71 9 8888-7777");
         user.setEmail("the_real_astro@email.com");
         user.setSystem("RH");
         user.setSystemId();
 
-        user2.setName("Adeobaldo Pinto");
+        user2.setName("Tio Patinhas");
         user2.setPhone("71 9 8888-7777");
-        user2.setEmail("dedezinho@email.com");
-        user2.setSystem("RH");
+        user2.setEmail("jojo@email.com");
+        user2.setSystem("Manutenção do poste de luz");
         user2.setSystemId();
 
         user.showPessoaContent();
@@ -72,8 +72,8 @@ public class App {
         // Manipulação das pessoas no sistema.
         user.addNewPerson(user);
         user.addNewPerson(user2);
-        user.removePerson("Astrogildo Silva");
-        user.changePerson("Astrogildo Silva", user2);
+        user.removePerson("Shiryu de Dragão");
+        user.changePerson("Shiryu de Dragão", user2);
         user.showPersonList();
     }
 }

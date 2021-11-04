@@ -28,6 +28,6 @@ public class Usuario extends Pessoa {
     System.out.println("Telefone do usuário: " + getPhone());
     System.out.println("Email do usuário: " + getEmail());
     System.out.println("Id do usuário: " + getSystemId());
-    System.out.println("Pedido do usuário: " + getSystem());
+    System.out.println("Serviço requisitado pelo usuário: " + getSystem());
   }
 }
