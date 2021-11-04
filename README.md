@@ -1,7 +1,7 @@
 <h1 align="center">👥 Sistema: Cadastro de Usuários</h1>
 
 <p align="center">
-  <img src="https://i.pinimg.com/originals/7b/76/ee/7b76eeb8b79c33d12fe80aa4d80ef9a8.gif">
+  <img src="https://www.ativasoft.com.br/blog/wp-content/uploads/2018/01/registrar_gif.gif">
 </p>
 
 > Projeto requisitado pelo professor [_Edson Mota_](https://www.linkedin.com/in/edsonmottac/).
