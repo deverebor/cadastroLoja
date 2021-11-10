@@ -64,6 +64,19 @@ public class Pessoa {
     }
   }
 
+  public void removePerson(String name, Integer pos) {
+    try {
+      for (int i = 0; i < personList.length; i++) {
+        if (personList[i].getName().equals(name) || personList[i].getName().equals(pos)) {
+          personList[i] = null;
+          System.out.println("Pessoa removida com sucesso!");
+        }
+      }
+    } catch (Exception e) {
+      System.out.println("Erro ao remover pessoa: " + e.getMessage());
+    }
+  }
+
   public void changePerson(String name, Pessoa person) {
     try {
       for (int i = 0; i < personList.length; i++) {
