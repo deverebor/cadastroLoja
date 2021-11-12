@@ -20,8 +20,8 @@ public class App {
         func2.setDepartament("RH");
         func2.setMatriculation("7676-77\n");
 
-        func.showPessoaContent();
-        func2.showPessoaContent();
+        func.showProfileContent();
+        func2.showProfileContent();
 
         // Manipulação das pessoas no sistema.
         func.addNewPerson(func);
@@ -43,8 +43,8 @@ public class App {
         prest2.setCpf("989.989.989-90");
         prest2.setCompany("COELBA");
 
-        prest.showPessoaContent();
-        prest2.showPessoaContent();
+        prest.showProfileContent();
+        prest2.showProfileContent();
 
         // Manipulação das pessoas no sistema.
         prest.addNewPerson(prest);
@@ -66,8 +66,8 @@ public class App {
         user2.setSystem("Manutenção do poste de luz");
         user2.setSystemId();
 
-        user.showPessoaContent();
-        user2.showPessoaContent();
+        user.showProfileContent();
+        user2.showProfileContent();
 
         // Manipulação das pessoas no sistema.
         user.addNewPerson(user);

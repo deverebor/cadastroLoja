@@ -5,9 +5,13 @@ public class Pessoa {
   private String name;
   private String phone;
   private String email;
+  
+  public Pessoa() {}
 
-  public Pessoa() {
-    personList = new Pessoa[maxSize];
+  public Pessoa(String name, String cpf, String email) {
+    this.name = name;
+    this.phone = cpf;
+    this.email = email;
   }
 
   public String getEmail() {
@@ -34,11 +38,7 @@ public class Pessoa {
     this.email = email;
   }
 
-  public void showPessoaContent() {
-    System.out.println("Nome do usuário: " + getName());
-    System.out.println("Telefone do usuário: " + getPhone());
-    System.out.println("Email do usuário: " + getEmail());
-  }
+  public void showProfileContent() {}
 
   public void addNewPerson(Pessoa person) {
     try {
